@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://jrc.com.np/sitemap_location.xml
