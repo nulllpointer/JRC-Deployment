@@ -15,9 +15,14 @@ class CreateNoticesTable extends Migration
     {
         Schema::create('notices', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('title');
-            $table->string('description');
-            $table->string('image');
+            $table->string('ongoingprojecttitle');
+            $table->string('ongoingprojectdescription');
+            $table->string('ongoingprojectlocation');
+            $table->string('ongoingprojectclient');
+            $table->string('completedprojecttitle');
+            $table->string('completedprojectdescription');
+            $table->string('completedprojectlocation');
+            $table->string('completedprojectclient');
             $table->timestamps();
         });
     }

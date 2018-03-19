@@ -13,9 +13,9 @@
 
     <meta name="google-site-verification" content="_HQU78JkYcSb0pUaBt_sgFHLEsd79-uMYDNcC9vicy0"/>
 
-    <meta name="description" content="JRC is a company that primarily provides comprehensive solution in Engineering, Environmental and Social studies.  
+    <meta name="description" content="JR Consultant primarily provides comprehensive solution in Engineering, Environmental and Social studies.  
 
-                            JRC possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.
+                            JR Consultant possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.
                          "/>
 
 
@@ -89,10 +89,10 @@
                             <h1 class="titlecolor"> CONSULTANT</h1>
                             <p>Welcome to the home of one of the renowned engineering consulting firm of Nepal.
                                 <br>
-                                JRC is a company that primarily provides comprehensive solution in Engineering,
+                                JR Consultant primarily provides comprehensive solution in Engineering,
                                 Environmental and Social studies.  
 
-                                JRC possesses over 28 years of experience working with variety of infrastructure
+                                JR Consultant possesses over 28 years of experience working with variety of infrastructure
                                 development projects and we strongly believe in high quality services and customer
                                 satisfaction.
                                 <br>
@@ -725,34 +725,7 @@
     </div>
 </section>
 --}}
-<div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
-    <div class="container">
-        <div class="row">
-
-            {{--<div class="col-sm-6">
-                <div class="footer-link">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                    <a href="#" class="fa fa-feed"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-skype"></a>
-                    <a href="#" class="fa fa-vimeo"></a>
-                    <a href="#" class="fa fa-tumblr"></a>
-                </div>
-            </div>--}}
-            <hr>
-            <div class="col-sm-12 text-center">
-                <div class="footer-text">
-                    <p style="text-decoration-color: black"> JRConsultant © All Rights Reserved </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->
 <script src="js/jquery.min.js"></script>

@@ -73,6 +73,23 @@ Route::get('/about', function () {
 });
 
 
+
+Route::get('/ourteam', function () {
+    $aboutus = \App\aboutus::get();
+    $staffs = \App\staffs::get();
+    $notices = \App\notices::get();
+    $mytime = Carbon\Carbon::now();
+    $mytime->addHours(5);
+    $mytime->addMinute(45);
+
+
+    return view('ourteam', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+
+
+});
+
+
+
 Route::get('/contact', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
@@ -100,7 +117,7 @@ Route::get('/services', function () {
 
 });
 
-Route::get('/surveyDetails', function () {
+Route::get('/surveydetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -109,10 +126,10 @@ Route::get('/surveyDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('surveyDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('surveydetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/researchDetails', function () {
+Route::get('/researchdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -122,23 +139,24 @@ Route::get('/researchDetails', function () {
 
     $staffs = \App\staffs::get();
 
-    return view('researchDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('researchdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/investigationDetails', function () {
+Route::get('/investigationdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
+    $mytime = Carbon\Carbon::now();
+
     $mytime->addHours(5);
     $mytime->addMinute(45);
 
-    $mytime = Carbon\Carbon::now();
 
 
-    return view('investigationDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('investigationdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/projectDetails', function () {
+Route::get('/projectdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
@@ -148,10 +166,10 @@ Route::get('/projectDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('projectDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('projectdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/precontractDetails', function () {
+Route::get('/precontractdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
@@ -160,10 +178,10 @@ Route::get('/precontractDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('precontractDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('precontractdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/implementDetails', function () {
+Route::get('/implementdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -172,10 +190,10 @@ Route::get('/implementDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('implementDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('implementdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/operationDetails', function () {
+Route::get('/operationdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -184,10 +202,10 @@ Route::get('/operationDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('operationDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('operationdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/trainingDetails', function () {
+Route::get('/trainingdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -196,10 +214,10 @@ Route::get('/trainingDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('trainingDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('trainingdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
-Route::get('/partnershipDetails', function () {
+Route::get('/partnershipdetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $mytime = Carbon\Carbon::now();
@@ -209,7 +227,7 @@ Route::get('/partnershipDetails', function () {
     $mytime->addMinute(45);
 
 
-    return view('partnershipDetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('partnershipdetails', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
 
 });
 Route::get('/architecture', function () {
@@ -247,13 +265,14 @@ Route::get('/projectcompleted', function () {
     $documents = \App\documents::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
+    $projectcompleted = \App\projectcompleted::get();
 
     $mytime = Carbon\Carbon::now();
     $mytime->addHours(5);
     $mytime->addMinute(45);
 
 
-    return view('projectcompleted', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('projectcompleted', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime,'projectcompleted' => $projectcompleted, 'notices'=> $notices]);
 
 });
 
@@ -263,13 +282,16 @@ Route::get('/projectongoing', function () {
     $documents = \App\documents::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
+    $projectongoing = \App\projectongoing::get();
+    $projectcompleted = \App\projectcompleted::get();
+
 
     $mytime = Carbon\Carbon::now();
     $mytime->addHours(5);
     $mytime->addMinute(45);
 
 
-    return view('projectongoing', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('projectongoing', ['aboutus' => $aboutus,'projectongoing' => $projectongoing,'projectcompleted' => $projectcompleted, 'staffs' => $staffs, 'mytime' => $mytime, 'notices'=> $notices]);
 
 });
 

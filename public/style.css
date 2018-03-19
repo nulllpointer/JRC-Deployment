@@ -103,7 +103,7 @@ Version: 1.0
 /*top and nav bar area*/
 
 ul.topaddres li {
-    color: #999999;
+    color: #ffffff;
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
@@ -150,8 +150,7 @@ ul.topaddres li span {
 }
 
 .sticky {
-    background: #fff;
-    position: fixed;
+    background: #0a0101;
     top: 0;
     width: 100%;
     left: 0;
@@ -161,7 +160,7 @@ ul.topaddres li span {
 }
 
 .menu li a {
-    color: #6a6a6a;
+    color: #fda241;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 14px;
@@ -271,7 +270,7 @@ html, body {
 }
 
 .welcome-text {
-    font-size: 22px;
+    font-size: 19px;
     color: #fff;
     font-weight: 400
 }
@@ -1035,7 +1034,13 @@ html, body {
 .news-img {
     text-align: center;
     position: relative;
+
 }
+.news-post-img img{
+    height: 300px;
+    width: 100%;
+}
+
 
 .news-img:before {
     position: absolute;
@@ -1171,9 +1176,9 @@ html, body {
 }
 
 .constructo-copyright {
-    padding: 30px 0;
+    padding: 15px 0;
     background: #191b01;
-    color: #ffffff;
+    color: #fbaa3d;
     position: relative;
 }
 
@@ -1572,6 +1577,13 @@ textarea.single-input {
     transition: .4s
 }
 
+.constructo-single-services img {
+   height: 200px;
+    width: 100%;
+}
+
+
+
 .constructo-single-services:hover {
     box-shadow: 2px 2px 2px 1px #d9d9d9;
 }
@@ -1590,8 +1602,34 @@ textarea.single-input {
     font-family: 'Oswald', sans-serif;
 }
 
+
+
+
+
+
+
+.ourteam-content h3 {
+    font-size:24px;font-weight:700;color:black ;
+padding: 5px;
+}
+
+.ourteam-content h4 {
+    font-size:16px; font-weight:600;
+}
+
+.ourteam-content p {
+    line-height:22px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
 .services-content {
-    color: 343434;
+    color: #343434;
     font-size: 14px;
 }
 
@@ -1687,6 +1725,7 @@ textarea.single-input {
 }
 
 .widget-title h2 {
+    font-size: 18px;
     color: #fba919;
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
@@ -1790,7 +1829,10 @@ textarea.single-input {
     padding-bottom: 20px;
 }
 
-.single-side-featuresnew a {
+.single-side-featuresnew a:hover{
+    background-color:#fba919;
+    text-decoration: underline;
+
     border-bottom: 1px solid #efefef;
     margin-bottom: 19px;
     overflow: hidden;
@@ -1807,15 +1849,16 @@ textarea.single-input {
 .side-title {
     color: #343434;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     padding-left: 85px;
 }
 
 .side-titlenew {
     color: black;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 33px;
+    text-decoration: underline;
 }
 
 .side-title span {
@@ -1874,7 +1917,7 @@ blockquote {
 }
 
 .single-news-paddint {
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 .single-news-paddintnew {

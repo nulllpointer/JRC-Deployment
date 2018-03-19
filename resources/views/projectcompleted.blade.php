@@ -94,219 +94,221 @@
                      </div>
                     --}}
                     <h2 style="color: #fba919;">We have completed following projects in various regions of Nepal</h2>
+                    @for($i=0;$i<sizeof($projectcompleted);$i++)
+                        <div id="{{$i}}">
+                            <div class="post-title">
+                                <h2>{{ $projectcompleted[$i]->completedprojecttitle }}</h2>
+                            </div>
+                            <div class="row single-news-paddintnew">
 
-                    <div id="1">
-                        <div class="post-title">
-                            <h2>Parashan-Tribhuwanbasti-laxmipur-Baluri road</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                                <div class="col-md-12">
+                                    <div class="about-list">
+                                        <ul>
+                                            <li><b>Scope:</b> {{ $projectcompleted[$i]->completedprojectdescription }}  </li>
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Detail Engineering Survey,design and report preparation of
-                                            Parashan-Tribhuwanbasti-laxmipur-Baluri road (11 Km)
-                                        </li>
-
-                                        <li>Location: Kanchanpur, Mahakali
-                                        </li>
-                                    </ul>
+                                            <li><b>Location:</b> {{ $projectcompleted[$i]->completedprojectlocation }}
+                                            </li>
+                                           {{-- <li><b>Clients Name:</b> {{ $projectcompleted[$i]->completedprojectclient }}
+                                            </li>
+--}}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
+                    @endfor
 
-                    </div>
+                    {{--   <div id="2">
+                           <div class="post-title">
+                               <h2> Kalikasharan Basic School</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                    <div id="2">
-                        <div class="post-title">
-                            <h2> Kalikasharan Basic School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Geotechnical investigation and Topographical survey of Shree Kalikasharan
+                                               Basic School
+                                           </li>
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Geotechnical investigation and Topographical survey of Shree Kalikasharan
-                                            Basic School
-                                        </li>
+                                           <li>Location: Haibung-02, Sindhupalchowk District
+                                           </li>
 
-                                        <li>Location: Haibung-02, Sindhupalchowk District
-                                        </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                       </div>
+                       <div id="3">
+                           <div class="post-title">
+                               <h2>Surya Primary School</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                    </div>
-                    <div id="3">
-                        <div class="post-title">
-                            <h2>Surya Primary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                               <div class="col-md-12">
+                                   <div class="about-list" >
+                                       <ul>
+                                           <li>Geotechnical investigation and Topographical survey of Surya Primary School
 
-                            <div class="col-md-12">
-                                <div class="about-list" >
-                                    <ul>
-                                        <li>Geotechnical investigation and Topographical survey of Surya Primary School
+                                           </li>
+                                           <li>Location: Okharpauwa-02, Nuwakot District
+                                           </li>
 
-                                        </li>
-                                        <li>Location: Okharpauwa-02, Nuwakot District
-                                        </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                       </div>
+                       <div id="4">
+                           <div class="post-title">
+                               <h2>Deurali Primary School</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                    </div>
-                    <div id="4">
-                        <div class="post-title">
-                            <h2>Deurali Primary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Preparation of Master Plan of Deurali Primary School</li>
+                                           <li>Location: Dolakha District</li>
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Preparation of Master Plan of Deurali Primary School</li>
-                                        <li>Location: Dolakha District</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                       </div>
+                       <div id="5">
+                           <div class="post-title">
+                               <h2>Lapilang Secondary School</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                    </div>
-                    <div id="5">
-                        <div class="post-title">
-                            <h2>Lapilang Secondary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Preparation of Master Plan of Lapilang Secondary School
-                                        </li>
-                                        <li>Location: Lapilag, Dolakha
-                                            District
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="6">
-                        <div class="post-title">
-                            <h2>Madhya Daram Khola-A SHP</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Madhya Daram Khola-A SHP
-
-                                        </li>
-                                        <li>Location: Baglung District
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="7">
-                        <div class="post-title">
-                            <h2>Madhya Daram Khola-B SHP</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Madhya Daram Khola-B SHP
-                                        </li>
-                                        <li>Location: Baglung District
-                                        </li>
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Preparation of Master Plan of Lapilang Secondary School
+                                           </li>
+                                           <li>Location: Lapilag, Dolakha
+                                               District
+                                           </li>
 
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                    </div>
-                    <div id="8">
-                        <div class="post-title">
-                            <h2>Jahare Lek Jhingni (11.54km)</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                       </div>
+                       <div id="6">
+                           <div class="post-title">
+                               <h2>Madhya Daram Khola-A SHP</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Jahare Lek Jhingni (
-                                            11.54km) road section
-                                        </li>
-                                        <li>Location: Surkhet District
-                                        </li>
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Initial Environmental Examination (IEE) study of Madhya Daram Khola-A SHP
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                           </li>
+                                           <li>Location: Baglung District
+                                           </li>
 
-                    </div>
-                    <div id="9">
-                        <div class="post-title">
-                            <h2>Mehelkuna Lake Bada Kholi (12.76 KM)</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Mehelkuna  Lake Bada Kholi
-                                            (12.76 KM) road Section
-                                        </li>
-                                        <li>Location: Surkhet District
-                                        </li>
+                       </div>
+                       <div id="7">
+                           <div class="post-title">
+                               <h2>Madhya Daram Khola-B SHP</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div id="10">
-                        <div class="post-title">
-                            <h2>Man Mohan Memorial Medical College and Teaching Hospital</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Environmental Impact Assessment (EIA) study of Man Mohan Memorial Medical
-                                            College and Teaching Hospital
-                                        </li>
-                                        <li>Location: Swoyambhu, Kathmandu
-                                        </li>
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Initial Environmental Examination (IEE) study of Madhya Daram Khola-B SHP
+                                           </li>
+                                           <li>Location: Baglung District
+                                           </li>
 
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
-                    </div>
+                       </div>
+                       <div id="8">
+                           <div class="post-title">
+                               <h2>Jahare Lek Jhingni (11.54km)</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
+
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Initial Environmental Examination (IEE) study of Jahare Lek Jhingni (
+                                               11.54km) road section
+                                           </li>
+                                           <li>Location: Surkhet District
+                                           </li>
+
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div id="9">
+                           <div class="post-title">
+                               <h2>Mehelkuna Lake Bada Kholi (12.76 KM)</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
+
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Initial Environmental Examination (IEE) study of Mehelkuna  Lake Bada Kholi
+                                               (12.76 KM) road Section
+                                           </li>
+                                           <li>Location: Surkhet District
+                                           </li>
+
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>
+
+                       <div id="10">
+                           <div class="post-title">
+                               <h2>Man Mohan Memorial Medical College and Teaching Hospital</h2>
+                           </div>
+                           <div class="row single-news-paddintnew">
+
+                               <div class="col-md-12">
+                                   <div class="about-list">
+                                       <ul>
+                                           <li>Environmental Impact Assessment (EIA) study of Man Mohan Memorial Medical
+                                               College and Teaching Hospital
+                                           </li>
+                                           <li>Location: Swoyambhu, Kathmandu
+                                           </li>
+
+
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>--}}
                 </div>
             </div>
             <div class="col-sm-5 col-md-4">
@@ -318,150 +320,77 @@
                         </div>
                         <div class="features-side-slider">
                             <div class="single-side-featuresnew">
-                                <a href="#1">
 
-                                    <div class="side-titlenew">
-                                        <p>Parashan-Tribhuwanbasti-laxmipur-Baluri road
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
+                                @for($i=0;$i<sizeof($projectcompleted);$i++)
 
-                                <a href="#2">
+                                    <a href="#{{$i}}">
 
-                                    <div class="side-titlenew">
-                                        <p>Shree Kalikasharan Basic School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
+                                        <div class="side-titlenew">
 
-                                <a href="#3">
+                                            <p> {{ $projectcompleted[$i]->completedprojecttitle }}
+                                            </p>
+                                        </div>
+                                        <br>
+                                    </a>
+                                @endfor
 
-                                    <div class="side-titlenew">
-                                        <p>Surya Primary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
 
-                                <a href="#4">
-
-                                    <div class="side-titlenew">
-                                        <p>Deurali Primary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#5">
-
-                                    <div class="side-titlenew">
-                                        <p>Lapilang Secondary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#6">
-
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-A
-                                        </p>
-                                    </div>
-<br>
-                                </a>
-
-                                <a href="#7">
-
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-B
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#8">
-
-                                    <div class="side-titlenew">
-                                        <p>Jahare Lek Jhingni
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#9">
-
-                                    <div class="side-titlenew">
-                                        <p>Mehelkuna Lake Bada Kholi
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#10">
-
-                                    <div class="side-titlenew">
-                                        <p>Man Mohan Memorial Medical College
-                                        </p>
-                                    </div>
-                                </a>
                                 <br>
 
 
                             </div>
-{{--
-                            <div class="single-side-featuresnew">
-                                <a href="#6">
+                            {{--
+                                                        <div class="single-side-featuresnew">
+                                                            <a href="#6">
 
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-A
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#7">
+                                                                <div class="side-titlenew">
+                                                                    <p>Madhya Daram Khola-A
+                                                                    </p>
+                                                                </div>
+                                                                <br>
+                                                            </a>
+                                                            <a href="#7">
 
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-B
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#8">
+                                                                <div class="side-titlenew">
+                                                                    <p>Madhya Daram Khola-B
+                                                                    </p>
+                                                                </div>
+                                                                <br>
+                                                            </a>
+                                                            <a href="#8">
 
-                                    <div class="side-titlenew">
-                                        <p>Jahare Lek Jhingni
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#9">
+                                                                <div class="side-titlenew">
+                                                                    <p>Jahare Lek Jhingni
+                                                                    </p>
+                                                                </div>
+                                                                <br>
+                                                            </a>
+                                                            <a href="#9">
 
-                                    <div class="side-titlenew">
-                                        <p>Mehelkuna Lake Bada Kholi
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-                                <a href="#10">
+                                                                <div class="side-titlenew">
+                                                                    <p>Mehelkuna Lake Bada Kholi
+                                                                    </p>
+                                                                </div>
+                                                                <br>
+                                                            </a>
+                                                            <a href="#10">
 
-                                    <div class="side-titlenew">
-                                        <p>Man Mohan Memorial Medical College
-                                        </p>
-                                    </div>
-                                </a>
-                                <br>
+                                                                <div class="side-titlenew">
+                                                                    <p>Man Mohan Memorial Medical College
+                                                                    </p>
+                                                                </div>
+                                                            </a>
+                                                            <br>
 
-                            </div>
---}}
-
-
+                                                        </div>
+                            --}}
 
 
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <!-- end of news section -->
 <!-- start footer top section -->
@@ -480,32 +409,8 @@
       </div>
   </section>
 --}}
-<div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col-sm-6">
-                 <div class="footer-link">
-                     <a href="#" class="fa fa-facebook"></a>
-                     <a href="#" class="fa fa-twitter"></a>
-                     <a href="#" class="fa fa-google-plus"></a>
-                     <a href="#" class="fa fa-feed"></a>
-                     <a href="#" class="fa fa-linkedin"></a>
-                     <a href="#" class="fa fa-skype"></a>
-                     <a href="#" class="fa fa-vimeo"></a>
-                     <a href="#" class="fa fa-tumblr"></a>
-                 </div>
-             </div>-->
-            <div class="col-sm-12 text-center">
-                <div class="footer-text">
-                    <p>JRConsultant © All Rights Reserved </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('partials.footer')
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->
 <script src="js/jquery.min.js"></script>

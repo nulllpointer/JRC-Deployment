@@ -59,7 +59,7 @@
     <!-- start nav and topbar area -->
     @include('partials.header')
     <!-- end nav and topbar area -->
-     <section class="constructo-page-title-area parallaxsection">
+  {{--   <section class="constructo-page-title-area parallaxsection">
     <div class="parallax-windowf" data-parallax="scroll" data-image-src="img/home1.jpg"></div>
         <div class="display-cell">
             <div class="container">
@@ -79,7 +79,7 @@
             </div>
         </div>
     </section>
-    <!-- end of home area -->
+  --}}  <!-- end of home area -->
    {{-- <section class="constructo-get-quote-area">
         <div class="container">
             <div class="row">
@@ -137,8 +137,7 @@
                             </div>
                         </div>
                         <h4>E-MAIL</h4>
-                        <p>contact@jrc.com.np</p>
-                        <p>jrconsultant.jrc@gmail.com</p>
+                        <p>{{$aboutus[0]->email}}</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 text-center">
@@ -262,33 +261,7 @@
         </div>
     </section>
     <!-- Start Copyright section -->
-    <div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
-        <div class="container">
-            <div class="row">
-                {{--<div class="col-sm-6">
-                    <div class="footer-link">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google-plus"></a>
-                        <a href="#" class="fa fa-feed"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-skype"></a>
-                        <a href="#" class="fa fa-vimeo"></a>
-                        <a href="#" class="fa fa-tumblr"></a>
-                    </div>
-                </div>--}}
-                <div class="col-sm-12 text-center">
-                    <div class="footer-text">
-                        <p>JRConsultant © All Rights Reserved </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    @include('partials.footer')
 
 
 

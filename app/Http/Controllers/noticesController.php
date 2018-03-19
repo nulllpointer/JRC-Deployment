@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Http\Controllers;
 
@@ -8,9 +8,11 @@ use \Serverfireteam\Panel\CrudController;
 
 use Illuminate\Http\Request;
 
-class noticesController extends CrudController{
+class noticesController extends CrudController
+{
 
-    public function all($entity){
+    public function all($entity)
+    {
         parent::all($entity);
 
         $this->filter = \DataFilter::source(new \App\notices);
@@ -20,14 +22,25 @@ class noticesController extends CrudController{
         $this->filter->build();
 
         $this->grid = \DataGrid::source($this->filter);
-        $this->grid->add('title', 'Title');
-        $this->grid->add('description', 'Description');
-        $this->grid->add('image', 'Image');
+        $this->grid->add('ongoingprojecttitle', 'OngoingProjectTitle');
+        $this->grid->add('ongoingprojectdescription', 'OngoingProjectDescription');
+        $this->grid->add('ongoingprojectlocation', 'OngoingProjectLocation');
+
+        $this->grid->add('ongoingprojectclient', 'OngoingProjectClient');
+
+        $this->grid->add('completedprojecttitle', 'CompletedProjectTitle');
+        $this->grid->add('completedprojectdescription', 'CompletedProjectDescription');
+        $this->grid->add('completedprojectlocation', 'CompletedProjectLocation');
+
+        $this->grid->add('completedprojectclient', 'CompletedProjectClient');
+
         $this->addStylesToGrid();
 
-        return $this->returnView(); }
-    
-    public function  edit($entity){
+        return $this->returnView();
+    }
+
+    public function edit($entity)
+    {
 
         parent::edit($entity);
 
@@ -35,12 +48,22 @@ class noticesController extends CrudController{
 
         $this->edit->label('Edit Gallery');
 
-        $this->edit->add('title', 'Title', 'text');
+        $this->edit->add('ongoingprojecttitle', 'OngoingProjectTitle', 'text');
 
-        $this->edit->add('description', 'Description', 'text');
+        $this->edit->add('ongoingprojectdescription', 'OngoingProjectDescription', 'text');
 
-        $this->edit->add('image', 'Image', 'file')->rule('required');
+        $this->edit->add('ongoingprojectlocation', 'OngoingProjectLocation', 'text');
+
+        $this->edit->add('ongoingprojectclient', 'OngoingProjectClient', 'text');
+
+        $this->edit->add('completedprojecttitle', 'CompletedProjectTitle', 'text');
+
+        $this->edit->add('completedprojectdescription', 'CompletedProjectDescription', 'text');
+
+        $this->edit->add('completedprojectlocation', 'CompletedProjectLocation', 'text');
+
+        $this->edit->add('completedprojectclient', 'CompletedProjectClient', 'text');
 
         return $this->returnEditView();
-    }    
+    }
 }

@@ -59,258 +59,49 @@
 </div>
 <!-- start nav and topbar area -->
 @include('partials.header')
-<!-- end nav and topbar area -->
-{{--     <section class="constructo-page-title-area parallaxsection">
-    <div class="parallax-windowf" data-parallax="scroll" data-image-src="img/home1.jpg"></div>
-        <div class="display-cell">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-left">
-                        <div class="constructo-page-title">
-                            <h1>OUR</h1>
-                            <h1 class="titlecolor">SERVICES</h1>
-                            <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Services</a></li>
-                            </ol>
-                            <img src="img/linew.png" alt="theconstructo.com">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
-<!-- end of home area -->
-{{-- <section class="constructo-get-quote-area">
-     <div class="container">
-         <div class="row">
-             <div class="col-sm-8 text-left">
-                 <div class="get-quate-content">
-                     <h2>HANDLE YOUR PROJECT WITH PROFESSIONALS</h2>
-                     <p>Maecenas scelerisque felis ornare placerat tempus. In turpis nisi, viverra hendrerit dolor vel, auctor blandit sapien. Aenean quis venenatis felis, adipiscing pretium nunc.</p>
-                 </div>
-             </div>
-          --}}{{--   <div class="col-sm-4 text-right">
-                 <div class="get-btn">
-                     <a href="#">GET A QUOTE</a>
-                 </div>
-             </div>--}}{{--
-         </div>
-     </div>
- </section>
---}} <!-- end of get quate area -->
-<!-- start features section -->
-{{--  <section class="constructo-features-area section-padding">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6 col-md-3 text-center">
-                  <div class="single-features">
-                      <div class="features-icon">
-                          <img src="img/ficon1.png" class="ficon3" alt="theconstructo.com">
-                          <div class="ficonh">
-                              <img src="img/ficon1h.png" alt="theconstructo.com">
-                          </div>
-                      </div>
-                      <h4>STYLE & PERFECTION</h4>
-                      <p>Lorem Ipsum is simply dummy text of</p>
-                      <p> the printing and typesetting let. Lorem</p>
-                      <p> Ipsum has been the industry.</p>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-md-3 text-center">
-                  <div class="single-features">
-                      <div class="features-icon">
-                          <img src="img/ficon2.png" class="ficon3" alt="theconstructo.com">
-                          <div class="ficonh">
-                              <img src="img/ficon2h.png" alt="theconstructo.com">
-                          </div>
-                      </div>
-                      <h4>TRANSPORT MINING</h4>
-                      <p>Lorem Ipsum is simply dummy text of</p>
-                      <p> the printing and typesetting let. Lorem</p>
-                      <p> Ipsum has been the industry.</p>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-md-3 text-center">
-                  <div class="single-features">
-                      <div class="features-icon">
-                          <img src="img/ficon3h.png" class="ficon3" alt="theconstructo.com">
-                          <div class="ficonh">
-                              <img src="img/ficon3.png" alt="theconstructo.com">
-                          </div>
-                      </div>
-                      <h4>DIGGING SITES</h4>
-                      <p>Lorem Ipsum is simply dummy text of</p>
-                      <p> the printing and typesetting let. Lorem</p>
-                      <p> Ipsum has been the industry.</p>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-md-3 text-center">
-                  <div class="single-features">
-                      <div class="features-icon">
-                          <img src="img/ficon4.png" class="ficon3" alt="theconstructo.com">
-                          <div class="ficonh">
-                              <img src="img/ficon4h.png" alt="theconstructo.com">
-                          </div>
-                      </div>
-                      <h4>SAFETY & CAUTION</h4>
-                      <p>Lorem Ipsum is simply dummy text of</p>
-                      <p> the printing and typesetting let. Lorem</p>
-                      <p> Ipsum has been the industry.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
---}}  <!-- end of features section -->
-<!-- start services section -->
+
 <section class="constructo-serivces-section section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
    ">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="section-title">
-                    <h2>WHAT WE DO</h2>
-                    <p style="font-size: 22px;">JRC provides integrated and multi-disciplinary professional services
-                        from concept formulation to completion of the Projects/Studies in order to tailor the
-                        requirements of clients.</p>
+                    <h2>OUR TEAM</h2>
+                    <p style="font-size: 22px;">We are an alliance of creative professionals and  work in combination to reach our clients' goals. Come join the team!</p>
                     <div class="line">
                         <img src="img/line.png" alt="theconstructo.com">
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="row padding-top">
+            @for ($i = 0; $i < sizeOf($staffs); $i++)
 
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img class="responsive" src="img/servic-4.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Project Planning and Design</h3>
-                        <p>Design Review. Outline and Detailed Engineering and Structural Design...
-                        </p>
-                        <a href="/projectdetails" class="services-btn">SERVICE DETAILS</a>
+
+            <div class="col-sm-4 text-center">
+
+
+                <div class="team-box">
+                    <div class="team-img">
+                        <img style="height: 300px; width: 270px" src="uploads/{{ $staffs[$i]->image }}">
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/servic-5.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Pre-Contract Services</h3>
-                        <p>Preparation of Prequalification, Tender and Contract Documents.
-                            Pre-qualification of Bidders...
-                        </p>
-                        <a href="/precontractdetails" class="services-btn">SERVICE DETAILS</a>
+                    <div class="ourteam-content">
+                        <h3>  {{ $staffs[$i]->name }}</h3>
+                        <h4>{{ $staffs[$i]->department }}</h4>
+                        <p>{{ $staffs[$i]->message }}</p>
                     </div>
-                </div>
+
+
             </div>
-
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/servic-6.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Project Implementation</h3>
-                        <p>Construction Supervision and Contract Administration...</p>
-                        <a href="/implementdetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/survey.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Survey and Assessment   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
-                        <p>Land Use, Topographic and Resource Survey/Appraisal. Geology, Hydrology and ..
-
-
-                        </p>
-                        <a href="/surveydetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/operation.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Operation, Maintenance and Management</h3>
-                        <p>O & M Services (Project Operation ), Institution Strengthening...</p>
-                        <a href="/operationdetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-                      <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/servic-3.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Investigation, Testing and Analysis</h3>
-                        <p>Geo-technical Investigation (Sub-surface Exploration by Drilling) ...</p>
-                        <a href="/investigationdetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/research.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Research and Studies</h3>
-                        <p>
-                            Pre-Investment Studies.
-                            Pre-feasibility, Feasibility Studies.
-                            Social, Economic and Financial Studies.
-                            <a href="/researchdetails" class="services-btn active">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/training.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Training and Workshops</h3>
-                        <p>Development of Training Programs and Modules, Management Support for Workshops...</p>
-                        <a href="/trainingdetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 text-left">
-                <div class="constructo-single-services">
-                    <img src="img/partnership.jpg" alt="theconstructo.com">
-                    <div class="services-content">
-                        <h3>Public Private Partnership</h3>
-                        <p>Initiative for promotion of PPPs, Project preparation and contract ...</p>
-                        <a href="/partnershipdetails" class="services-btn">SERVICE DETAILS</a>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
+            @endfor
     </div>
+    </div>
+    <br><br><br>
+
 
 </section>
 <!-- end of services section -->
@@ -510,8 +301,9 @@
      </div>
  </section>
 --}}
-@include('partials.footer')
 
+
+@include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->
 <script src="js/jquery.min.js"></script>

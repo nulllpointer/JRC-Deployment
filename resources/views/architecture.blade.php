@@ -213,33 +213,7 @@
     </div>
 </section>
 --}}
-<div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
-    <div class="container">
-        <div class="row">
-            {{-- <div class="col-sm-6">
-                 <div class="footer-link">
-                     <a href="#" class="fa fa-facebook"></a>
-                     <a href="#" class="fa fa-twitter"></a>
-                     <a href="#" class="fa fa-google-plus"></a>
-                     <a href="#" class="fa fa-feed"></a>
-                     <a href="#" class="fa fa-linkedin"></a>
-                     <a href="#" class="fa fa-skype"></a>
-                     <a href="#" class="fa fa-vimeo"></a>
-                     <a href="#" class="fa fa-tumblr"></a>
-                 </div>
-             </div>--}}
-            <div class="col-sm-12 text-center">
-                <div class="footer-text">
-                    <p>JRConsultant © All Rights Reserved </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+@include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->
 <script src="js/jquery.min.js"></script>

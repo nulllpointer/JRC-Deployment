@@ -1,6 +1,7 @@
 
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
+<script src="js/jquery.min.js"></script>
 
 
 <script>
@@ -72,7 +73,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="" href="/index"><img style="height: 62px" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
+                    <a class="" href="/index"><img style="height: 62px; width: 100%;" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
 
                    {{-- <a class="" href="/index"><img style="height: 62px;" src="uploads/nepal.png" alt="uploads/{{$aboutus[0]->logo}}">
                         <h style="color: darkorange; font-size: 18px"> {{$mytime}}</h>
@@ -88,6 +89,8 @@
                     <ul class="nav menu navbar-nav navbar-right">
                         <li class="active"><a href="/index">HOME</a></li>
                         <li><a href="/about">ABOUT</a></li>
+                        <li><a href="/ourteam">OUR TEAM</a></li>
+
                         <li><a href="/services">SERVICES</a></li>
 
 

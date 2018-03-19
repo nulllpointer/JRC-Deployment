@@ -94,155 +94,31 @@
                     --}}
                     <h2 style="color: #fba919;">We are working on these projects currently</h2>
 
-                    <div id="1">
-                        <div class="post-title">
-                            <h2>Suni Gad HPP (11.05 MW)</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
+                    @for($i=0;$i<sizeof($projectongoing);$i++)
+                        <div id="{{$i}}">
+                            <div class="post-title">
+                                <h2>{{ $projectongoing[$i]->ongoingprojecttitle }}</h2>
+                            </div>
+                            <div class="row single-news-paddintnew">
 
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Suni Gad HPP (11.05 MW)
+                                <div class="col-md-12">
+                                    <div class="about-list">
+                                        <ul>
+                                            <li><b>Scope: </b>{{ $projectongoing[$i]->ongoingprojectdescription }}  </li>
 
-                                        </li>
-
-                                        <li>Location: Sunikot, Bajhang District
-                                        </li>
-                                    </ul>
+                                            <li><b>Location: </b>{{ $projectongoing[$i]->ongoingprojectlocation }}
+                                            </li>
+                                         {{--   <li><b>Clients:</b>> {{ $projectongoing[$i]->ongoingprojectclient }}
+                                            </li>
+--}}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
+                    @endfor
 
-                    </div>
-
-                    <div id="2">
-                        <div class="post-title">
-                            <h2> Apsuwa 1 HPP (23 MW)</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Environmental Impact Assessment (EIA) study of Apsuwa 1 HPP (23 MW), Makalu
-                                            and Yafu
-                                        </li>
-
-                                        <li>Location: Sankhuwasabha District
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="3">
-                        <div class="post-title">
-                            <h2>Surya Primary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Environmental and Social Impact Assessment (ESIA) study of Sani Bheri 3 HPP
-                                            (50.00 MW)
-
-                                        </li>
-                                        <li>Location: Rukum District
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="4">
-                        <div class="post-title">
-                            <h2>Deurali Primary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Preparation of Master Plan of Deurali Primary School</li>
-                                        <li>Location: Krishnapur Municipality, Kanchanpur District</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="5">
-                        <div class="post-title">
-                            <h2>Lapilang Secondary School</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of 132 KV transmission line of
-                                            Lower Modi HPP
-                                        </li>
-                                        <li>Location: Parbat District
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="6">
-                        <div class="post-title">
-                            <h2>Madhya Daram Khola-A SHP</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Environmental Impact Assessment (EIA) study of Myagdi Khola Hydropower
-                                            Project (57.30 MW)
-
-                                        </li>
-                                        <li>Location: Myagdi District
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="7">
-                        <div class="post-title">
-                            <h2>Madhya Daram Khola-B SHP</h2>
-                        </div>
-                        <div class="row single-news-paddintnew">
-
-                            <div class="col-md-12">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Initial Environmental Examination (IEE) study of Nepal Cancer Hospital
-                                        </li>
-                                        <li>Location: Khajura, Banke District
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
 
                 </div>
             </div>
@@ -255,68 +131,20 @@
                         </div>
                         <div class="features-side-slider">
                             <div class="single-side-featuresnew">
-                                <a href="#1">
+
+                                @for($i=0;$i<sizeof($projectongoing);$i++)
+
+                                <a href="#{{$i}}">
 
                                     <div class="side-titlenew">
-                                        <p>Suni Gad HPP (11.05 MW)
+
+                                        <p> {{ $projectongoing[$i]->ongoingprojecttitle }}
                                         </p>
                                     </div>
                                     <br>
                                 </a>
+                                @endfor
 
-                                <a href="#2">
-
-                                    <div class="side-titlenew">
-                                        <p>Apsuwa 1 HPP (23 MW)
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#3">
-
-                                    <div class="side-titlenew">
-                                        <p>Surya Primary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#4">
-
-                                    <div class="side-titlenew">
-                                        <p>Deurali Primary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#5">
-
-                                    <div class="side-titlenew">
-                                        <p>Lapilang Secondary School
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#6">
-
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-A SHP
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
-
-                                <a href="#7">
-
-                                    <div class="side-titlenew">
-                                        <p>Madhya Daram Khola-B SHP
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
                                 <br>
 
 
@@ -391,32 +219,7 @@
       </div>
   </section>
 --}}
-<div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col-sm-6">
-                 <div class="footer-link">
-                     <a href="#" class="fa fa-facebook"></a>
-                     <a href="#" class="fa fa-twitter"></a>
-                     <a href="#" class="fa fa-google-plus"></a>
-                     <a href="#" class="fa fa-feed"></a>
-                     <a href="#" class="fa fa-linkedin"></a>
-                     <a href="#" class="fa fa-skype"></a>
-                     <a href="#" class="fa fa-vimeo"></a>
-                     <a href="#" class="fa fa-tumblr"></a>
-                 </div>
-             </div>-->
-            <div class="col-sm-12 text-center">
-                <div class="footer-text">
-                    <p>JRConsultant © All Rights Reserved </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->
 <script src="js/jquery.min.js"></script>
