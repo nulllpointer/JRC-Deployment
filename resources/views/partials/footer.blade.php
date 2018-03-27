@@ -64,20 +64,19 @@
 
     .widget_nav_menu ul li {
         font-size: 13px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 20px;
         position: relative;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-        margin-bottom: 7px;
-        padding-bottom: 7px;
-        width:95%;
-
+        margin-bottom: 5px;
+        padding-bottom: 4px;
+        width: 95%;
     }
 
 
     .widget_nav_menu ul li a {
-        color: #e89e38;  }
+        color: #ffffff;  }
 
 
     .title-median {
@@ -169,9 +168,6 @@
 
 
 <div class="constructo-copyright">
-    <div class="scroll-top">
-        <a href="#" class="top0 fa fa-angle-up"></a>
-    </div>
     <div class="container">
         <div class="row">
 

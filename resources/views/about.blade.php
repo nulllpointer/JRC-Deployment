@@ -88,14 +88,13 @@
 <!-- end of home area -->
 <!-- end of get quate area -->
 <!-- start about us section -->
-<section class="constructo-aboutUs-area section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
-   ">
+<section class="constructo-aboutUs-area section-padding" style="background: #f4f5f9;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="section-title">
-                    <h2>ABOUT US</h2>
-                    <p style="font-size: 22px;" >The company was established in the year 1990 A.D as an Engineering Consulting Firm  providing a wide range of services across diverse sectors as J. R. Consultant
+                    <p style="font-size: 19px;">This company was established in the year 1990 A.D as an engineering
+                        consulting firm providing a wide range of service across diverse sectors as JR Consultant.
                     </p>
                     <div class="line">
                         <img src="img/line.png" alt="theconstructo.com">
@@ -105,20 +104,78 @@
         </div>
         <div class="row padding-top">
             <div class="col-sm-12 col-md-6">
-                <div class="aboutUs-img">
-                    <img src="img/about-img1.png" alt="theconstructo.com">
+                <div class="best-feature-title">
+                    <h2 class="text-uppercase">WHY CHOOSE US ?</h2>
+                    <img src="img/line.png" alt="theconstructo.com">
                 </div>
-                <div class="about-img2">
-                    <img src="img/about-img2.png" alt="theconstructo.com">
+                <div class="whychoose-us-content">
+                    <div class="single-chose">
+                        <h4><span class="fa fa-check"></span>VISION</h4>
+                        <ul style="list-style-type: circle">
+                            <li>To be a regional leader and global competitor by consistently delivering quality works
+                                that meet international standards.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="single-chose">
+                        <h4><span class="fa fa-check"></span>MISSION</h4>
+                        <UL style="list-style-type: circle">
+                            <LI> Consistently deliver innovative solutions reinforced by responsive client services and
+                                a commitment to quality and excellence.
+                            </LI>
+                            <LI> Aspire to lead the national and global markets by delivering standard services to
+                                satisfy the needs of clients, the growth and pride of our employees and the overall
+                                satisfaction of competing in the consulting profession.
+                            </LI>
+                            <LI> Strive to support the projects with the most advanced technology and consistently
+                                improve deliverables to clients.
+                            </LI>
+
+                        </UL>
+
+                    </div>
+                    <div class="single-chose">
+                        <h4><span class="fa fa-check"></span>Objectives</h4>
+                        <ul style="list-style-type: circle">
+                            <li>Development endeavors by providing appropriate technical, educational and research
+                                expertise in the known but context of sustainable development.
+                            </li>
+                            <li>Eventual amelioration of the difficult livelihood of the majority of rural people who
+                                survive at subsistence levels.
+                            </li>
+                            <li>Mitigation of environmental degradation due to development activities: Socio-economical
+                                impacts of development interventions.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-5 col-md-offset-1">
+
+                <div class="best-feature-title">
+                    <h2 class="text-uppercase">KNOW US BETTER</h2>
+                    <img src="img/line.png" alt="theconstructo.com">
+                </div>
+
                 <div class="constructo-aboutUs-content">
-                    <p style="text-align: justify">Country’s development endeavors by providing <em>technical, educational and research expertise</em> appropriate to the historically known but recently acknowledged context of sustainable and environmental friendly devilment.
+
+                    <p style="text-align: justify">Country’s development endeavors by providing <em>technical,
+                            educational and research expertise</em> appropriate to the historically known but recently
+                        acknowledged context of sustainable and environmental friendly devilment.
                     </p>
-                    <p style="text-align: justify">The main field of activities of our firm is <em>planning, feasibility studies, environment studies, survey, design, supervision and management</em> of the projects within all fields of social, environmental and physical engineering and related sciences. From the outset, our primary concern has always been to render professional services of the highest quality to our clients who include donors, governments, semi-governments, and private enterprises.
+                    <p style="text-align: justify">The main field of activities of our firm is <em>planning, feasibility
+                            studies, environment studies, survey, design, supervision and management</em> of the
+                        projects within all fields of social, environmental and physical engineering and related
+                        sciences. From the outset, our primary concern has always been to render professional services
+                        of the highest quality to our clients who include donors, governments, semi-governments, and
+                        private enterprises.
                     </p>
-                    <p style="text-align: justify">JRC has provided consultancy services to most of the government departments and agencies of Government of Nepal. JRC has experience of working in all 75 districts of Nepal covering the Mountains, Hills and the Terai region. The most noteworthy is providing services to the various agencies engaged in the fields of water resources development, urban and rural water supply and sanitation, transportation and urban development, irrigation and agricultural, environmental and social studies, rural development, hydropower and energy.
+                    <p style="text-align: justify">We have provided consultancy services to most of the government
+                        departments and agencies of Government of Nepal. JR Consultant has experience of working in all
+                        75 districts of Nepal covering the Mountains, Hills and the Terai region. The most noteworthy is
+                        providing services to the various agencies engaged in the fields of water resources development,
+                        urban and rural water supply and sanitation, transportation and urban development, irrigation
+                        and agricultural, environmental and social studies, rural development, hydropower and energy. Click below to know a brief summary of our projects.
                     </p>
 
                     <a href="/projectcompleted" class="btn-readmor">VIEW PROJECTS</a>
@@ -127,125 +184,125 @@
         </div>
     </div>
     <br>
-    <div class="container">
-        <section class="constructo-whychoose-us section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-5 text-left">
-                        <div class="best-feature-title">
-                            <h2 class="text-uppercase">best features</h2>
-                            <img src="img/choline.png" alt="theconstructo.com">
-                        </div>
-                        <div class="best-features-accoudion">
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a cla="collapsed">
-                                                Professional Ethic 
-                                            </a>
-                                        </h4>
-                                    </div>
+    {{--  <div class="container">
+          <section class="constructo-whychoose-us section-padding">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-5 text-left">
+                          <div class="best-feature-title">
+                              <h2 class="text-uppercase">our best features</h2>
+                              <img src="img/choline.png" alt="theconstructo.com">
+                          </div>
+                          <div class="best-features-accoudion">
+                              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingOne">
+                                          <h4 class="panel-title">
+                                              <a cla="collapsed">
+                                                  Professional Ethic 
+                                              </a>
+                                          </h4>
+                                      </div>
 
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" >
-                                                High Standard 
-                                            </a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed">
-                                                Cost Effectiveness
-                                            </a>
-                                        </h4>
-                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingTwo">
+                                          <h4 class="panel-title">
+                                              <a class="collapsed" >
+                                                  High Standard 
+                                              </a>
+                                          </h4>
+                                      </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title">
+                                              <a class="collapsed">
+                                                  Cost Effectiveness
+                                              </a>
+                                          </h4>
+                                      </div>
 
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed">
-                                                Timely Performance
-                                            </a>
-                                        </h4>
-                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title">
+                                              <a class="collapsed">
+                                                  Timely Performance
+                                              </a>
+                                          </h4>
+                                      </div>
 
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" >
-                                                Total Quality Assurance
-                                            </a>
-                                        </h4>
-                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title">
+                                              <a class="collapsed" >
+                                                  Total Quality Assurance
+                                              </a>
+                                          </h4>
+                                      </div>
 
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed">
-                                                Client Satisfaction
-                                            </a>
-                                        </h4>
-                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title">
+                                              <a class="collapsed">
+                                                  Client Satisfaction
+                                              </a>
+                                          </h4>
+                                      </div>
 
-                                </div>
+                                  </div>
 
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-md-offset-2" style="    margin-left: 10.666667%;">
-                        <div class="best-feature-title">
-                            <h2 class="text-uppercase">WHY CHOOSE US ?</h2>
-                            <img src="img/choline.png" alt="theconstructo.com">
-                        </div>
-                        <div class="whychoose-us-content">
-                            <div class="single-chose">
-                                <h4><span class="fa fa-check"></span>VISION</h4>
-                                <ul style="list-style-type: circle">
-                                    <li>To be a regional leader and global competitor by consistently delivering quality works that meet international standards.</li>
-                                </ul>
-                            </div>
-                            <div class="single-chose">
-                                <h4><span class="fa fa-check"></span>MISSION</h4>
-                                <UL style="list-style-type: circle">
-                                    <LI> Consistently deliver innovative solutions reinforced by responsive client services and a commitment to quality and excellence.
-                                    </LI>
-                                    <LI> Aspire to lead the national and global markets by delivering standard services to satisfy the needs of clients, the growth and pride of our employees and the overall satisfaction of competing in the consulting profession.
-                                    </LI>
-                                    <LI> Strive to support the projects with the most advanced technology and consistently improve deliverables to clients.
-                                    </LI>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-5 col-md-offset-2" style="    margin-left: 10.666667%;">
+                          <div class="best-feature-title">
+                              <h2 class="text-uppercase">WHY CHOOSE US ?</h2>
+                              <img src="img/choline.png" alt="theconstructo.com">
+                          </div>
+                          <div class="whychoose-us-content">
+                              <div class="single-chose">
+                                  <h4><span class="fa fa-check"></span>VISION</h4>
+                                  <ul style="list-style-type: circle">
+                                      <li>To be a regional leader and global competitor by consistently delivering quality works that meet international standards.</li>
+                                  </ul>
+                              </div>
+                              <div class="single-chose">
+                                  <h4><span class="fa fa-check"></span>MISSION</h4>
+                                  <UL style="list-style-type: circle">
+                                      <LI> Consistently deliver innovative solutions reinforced by responsive client services and a commitment to quality and excellence.
+                                      </LI>
+                                      <LI> Aspire to lead the national and global markets by delivering standard services to satisfy the needs of clients, the growth and pride of our employees and the overall satisfaction of competing in the consulting profession.
+                                      </LI>
+                                      <LI> Strive to support the projects with the most advanced technology and consistently improve deliverables to clients.
+                                      </LI>
 
-                                </UL>
+                                  </UL>
 
-                            </div>
-                            <div class="single-chose">
-                                <h4><span class="fa fa-check"></span>Objectives</h4>
-                                <ul style="list-style-type: circle">
-                                    <li>Development endeavors by providing appropriate technical, educational and research expertise in the known but context of sustainable development.
-                                    </li>
-                                    <li>Eventual amelioration of the difficult livelihood of the majority of rural people who survive at subsistence levels.
-                                    </li>
-                                    <li>Mitigation of environmental degradation due to development activities: Socio-economical impacts of development interventions.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                              </div>
+                              <div class="single-chose">
+                                  <h4><span class="fa fa-check"></span>Objectives</h4>
+                                  <ul style="list-style-type: circle">
+                                      <li>Development endeavors by providing appropriate technical, educational and research expertise in the known but context of sustainable development.
+                                      </li>
+                                      <li>Eventual amelioration of the difficult livelihood of the majority of rural people who survive at subsistence levels.
+                                      </li>
+                                      <li>Mitigation of environmental degradation due to development activities: Socio-economical impacts of development interventions.
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
-    </div>
-
+      </div>
+  --}}
 </section>
 <!-- end of about us section -->
 <!-- start why choose us section -->

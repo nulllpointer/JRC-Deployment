@@ -25,6 +25,9 @@ class staffsController extends CrudController{
         $this->grid->add('department', 'Department');
 
         $this->grid->add('image', 'Image');
+        $this->grid->add('resume', 'Resume');
+
+
         $this->addStylesToGrid();
 
         return $this->returnView();    }
@@ -45,6 +48,10 @@ class staffsController extends CrudController{
 
 
         $this->edit->add('image', 'Image', 'file')->rule('required');
+
+        $this->edit->add('resume', 'Resume', 'file')->rule('required');
+
+
 
         return $this->returnEditView();
     }    

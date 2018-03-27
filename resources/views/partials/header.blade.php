@@ -23,6 +23,7 @@
                 <div class="">
                     <div class="container">
                         <div class="row">
+
                             <div class="col-sm-6 text-left">
                                 <ul class="topaddres">
                                     <li><span class="fa fa-phone"></span>{{$aboutus[0]->mobile}}</li><br>
@@ -84,9 +85,18 @@
 --}}
 
                 </div>
+
+
+
+
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav menu navbar-nav navbar-right">
+
+
+
+
                         <li class="active"><a href="/index">HOME</a></li>
                         <li><a href="/about">ABOUT</a></li>
                         <li><a href="/ourteam">OUR TEAM</a></li>

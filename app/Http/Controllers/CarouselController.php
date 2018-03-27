@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Carousel as Carousel;
+use App\Models\carousel as Carousel;
 use App\Models\CarouselDto;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -12,7 +12,7 @@ class CarouselController extends Controller
     public function index($section)
     {
         $carousels= array();
-        $carousel = Carousel::where('section_name', 'intro')->get();
+        $carousel = carousel::where('section_name', 'intro')->get();
 //        echo $carousel;
 //        print_r($carousel);
 //        return response()->header('Content-Type', )->json("asasasasasasasasasass") ;

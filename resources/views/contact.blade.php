@@ -99,62 +99,6 @@
     </section>--}}
     <!-- end of get quate area -->
     <!-- start features area -->
-    <section class="constructo-features-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 text-center">
-                    <div class="single-features">
-                        <div class="features-icon">
-                            <img src="img/con1.png" class="ficon3" alt="theconstructo.com">
-                            <div class="ficonh">
-                                <img src="img/con1h.png" alt="theconstructo.com">
-                            </div>
-                        </div>
-                        <h4>ADDRESS</h4>
-                        <p>{{$aboutus[0]->address}}</p>
-                        <p>Mahendranagar, Nepal</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 text-center">
-                    <div class="single-features">
-                        <div class="features-icon">
-                            <img src="img/con2.png" class="ficon3" alt="theconstructo.com">
-                            <div class="ficonh">
-                                <img src="img/con2h.png" alt="theconstructo.com">
-                            </div>
-                        </div>
-                        <h4>PHONE NUMBERS</h4>
-                        <p>Contact : {{$aboutus[0]->mobile}}</p>
-                        <p>Name : Harendra Kalauni</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 text-center">
-                    <div class="single-features">
-                        <div class="features-icon">
-                            <img src="img/con3.png" class="ficon3" alt="theconstructo.com">
-                            <div class="ficonh">
-                                <img src="img/con3h.png" alt="theconstructo.com">
-                            </div>
-                        </div>
-                        <h4>E-MAIL</h4>
-                        <p>{{$aboutus[0]->email}}</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 text-center">
-                    <div class="single-features">
-                        <div class="features-icon">
-                            <img src="img/con4.png" class="ficon3" alt="theconstructo.com">
-                            <div class="ficonh">
-                                <img src="img/con4h.png" alt="theconstructo.com">
-                            </div>
-                        </div>
-                        <h4>WORKING HOURS</h4>
-                        <p>Sun to Fri : 0900 - 1900</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- end of features area -->
     <!-- start contact form area -->
     <section class="constructo-contactUs-area section-padding">
@@ -163,7 +107,7 @@
                 <div class="col-xs-12 text-center">
                     <div class="section-title">
                         <h2>CONTACT US</h2>
-                        <p>A brief story about how this process works, keep an eye till the end.</p>
+                        <p>Give us a call, send us an email or a letter-or drop by to have a chat. We are always here to help out in whatever way we can.</p>
                         <div class="line">
                             <img src="img/linew.png" alt="theconstructo.com">
                         </div>
@@ -178,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-sm-7">
-                    <h2 style="color: #ffffff">Send us a message</h2>
+                    <h2 style="color: black;">Complete your details and we will contact you shortly</h2>
 
 
                     <form id="contact-form" method="post" action="/sendform" role="form">
@@ -193,7 +137,7 @@
                                     <div class="form-group">
                                         <label for="form_name">&nbsp&nbspFirstname *</label>
                                         <input style="font-size: small;" id="form_name" type="text" name="name"
-                                               class="form-control" placeholder="  Please enter your firstname"
+                                               class="form-control" placeholder="Please enter your firstname"
                                                required="required" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -202,7 +146,7 @@
                                     <div class="form-group">
                                         <label for="form_lastname">&nbsp&nbspLastname *</label>
                                         <input style="font-size: small;" id="form_lastname" type="text" name="surname"
-                                               class="form-control" placeholder="  Please enter your lastname" required="required"
+                                               class="form-control" placeholder="Please enter your lastname" required="required"
                                                data-error="Lastname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -213,7 +157,7 @@
                                     <div class="form-group">
                                         <label for="form_email">&nbsp&nbspEmail *</label>
                                         <input style="font-size: small;" id="form_email" type="email" name="email"
-                                               class="form-control" placeholder="  Please enter your email" required="required"
+                                               class="form-control" placeholder="Please enter your email" required="required"
                                                data-error="Valid email is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -222,7 +166,7 @@
                                     <div class="form-group">
                                         <label for="form_phone">&nbspPhone *</label>
                                         <input style="font-size: small;" id="form_phone" type="tel" name="phone"
-                                               class="form-control" placeholder="  Please enter your phone" required="required"
+                                               class="form-control" placeholder="Please enter your phone" required="required"
                                                data-error="Valid phone number is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -261,8 +205,62 @@
         </div>
     </section>
     <!-- Start Copyright section -->
-    @include('partials.footer')
-
+     <section class="constructo-features-area section-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 text-center">
+                      <div class="single-features">
+                          <div class="features-icon">
+                              <img src="img/con1h.png" class="ficon3" alt="theconstructo.com">
+                              <div class="ficonh">
+                                  <img src="img/con1h.png" alt="theconstructo.com">
+                              </div>
+                          </div>
+                          <h4>ADDRESS</h4>
+                          <p>{{$aboutus[0]->address}}</p>
+                          <p>Mahendranagar, Nepal</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 text-center">
+                      <div class="single-features">
+                          <div class="features-icon">
+                              <img src="img/con2h.png" class="ficon3" alt="theconstructo.com">
+                              <div class="ficonh">
+                                  <img src="img/con2h.png" alt="theconstructo.com">
+                              </div>
+                          </div>
+                          <h4>PHONE NUMBERS</h4>
+                          <p>Contact : {{$aboutus[0]->mobile}}</p>
+                          <p>Name : Harendra Kalauni</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 text-center">
+                      <div class="single-features">
+                          <div class="features-icon">
+                              <img src="img/con3h.png" class="ficon3" alt="theconstructo.com">
+                              <div class="ficonh">
+                                  <img src="img/con3h.png" alt="theconstructo.com">
+                              </div>
+                          </div>
+                          <h4>E-MAIL</h4>
+                          <p>{{$aboutus[0]->email}}</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 text-center">
+                      <div class="single-features">
+                          <div class="features-icon">
+                              <img src="img/con4h.png" class="ficon3" alt="theconstructo.com">
+                              <div class="ficonh">
+                                  <img src="img/con4h.png" alt="theconstructo.com">
+                              </div>
+                          </div>
+                          <h4>WORKING HOURS</h4>
+                          <p>Sun to Fri : 0900 - 1900</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>

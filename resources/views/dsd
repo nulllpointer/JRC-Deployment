@@ -1,0 +1,81 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.7
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: Mar 23, 2018 at 08:29 AM
+-- Server version: 10.0.34-MariaDB-cll-lve
+-- PHP Version: 5.6.30
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `alfrescorestro_jrc`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `staffs`
+--
+
+CREATE TABLE `staffs` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `message` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `department` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `staffs`
+--
+
+INSERT INTO `staffs` (`id`, `name`, `message`, `image`, `department`, `created_at`, `updated_at`) VALUES
+
+(1, 'Properiter', 'Dept Name', 'Harendra.jpg', 'MSc. Geo-technical Engineering', '2018-03-18 04:01:30', '2018-03-22 06:53:41'),
+(2, 'Harendra Raj Kalouni', 'Geo-Technical Dept', 'Harendra.jpg', 'MSc. Geo-technical Engineering', '2018-03-18 04:01:30', '2018-03-22 06:53:41'),
+(3, 'Jay Raj Mishra', 'Environmental Expert', 'Jay.jpg', 'MSc Forestry', '2018-03-18 06:00:29', '2018-03-22 06:37:57'),
+(4, 'Surendra Dev Bhatta', 'Environmental Expert', 'Surendra_2.jpg', 'MSc. Environmental Science', '2018-03-18 06:01:17', '2018-03-22 06:39:51'),
+(5, 'Ashok Sharma', 'IT Expert', 'Ashok.jpg', 'ME Computer Engineering', '2018-03-18 06:02:15', '2018-03-22 06:40:58'),
+(6, 'Suresh Raj Kalouni', 'Dept of Civil', 'Suresh.jpg', 'BE Civil', '2018-03-18 06:02:57', '2018-03-22 06:41:25'),
+(7, 'Surendra Singh Air', 'Sociologist', 'Surendra.jpg', 'MA(Sociology)', '2018-03-18 06:04:00', '2018-03-23 06:22:11'),
+(8, 'Name', 'Qualification', 'logojrc.png', 'Department', '2018-03-23 07:07:28', '2018-03-23 07:49:06'),
+(9, 'Name', 'hfjksfjk', 'logojrc.png', 'hdkjshkhsk', '2018-03-23 07:50:55', '2018-03-23 07:50:55'),
+(10, 'Name', 'fksjfjkkj', 'logojrc.png', 'hjdshkjhsk', '2018-03-23 07:51:10', '2018-03-23 07:51:10');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `staffs`
+--
+ALTER TABLE `staffs`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `staffs`
+--
+ALTER TABLE `staffs`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

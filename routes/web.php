@@ -11,7 +11,6 @@
 |
 */
 
-use App\Models\Carousel as Carousel;
 
 
 Route::get('/index', function () {
@@ -20,11 +19,12 @@ Route::get('/index', function () {
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
     $mytime = Carbon\Carbon::now();
+    $carousel = \App\carousel::get();
 
     $mytime->addHours(5);
     $mytime->addMinute(45);
 
-    return view('index', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('index', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime, 'carousel' => $carousel]);
 
 
 
@@ -38,6 +38,9 @@ Route::get('/index', function () {
 
 });
 
+
+
+
 Route::get('/', function () {
     $aboutus = \App\aboutus::get();
     $documents = \App\documents::get();
@@ -46,13 +49,15 @@ Route::get('/', function () {
     $mytime = Carbon\Carbon::now();
     $mytime->addHours(5);
     $mytime->addMinute(45);
+    $carousel = \App\carousel::get();
+
 
 
     if (Agent::isMobile()) {
         return view('indexmobile', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs, 'mytime' => $mytime]);
     } else {
         return view('index
-        ', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs, 'mytime' => $mytime, 'mytime' => $mytime]);
+        ', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs, 'mytime' => $mytime, 'mytime' => $mytime,'carousel' => $carousel]);
     }
 
 
@@ -82,8 +87,9 @@ Route::get('/ourteam', function () {
     $mytime->addHours(5);
     $mytime->addMinute(45);
 
+    $hero = DB::table('staffs')->distinct()->get();
 
-    return view('ourteam', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime]);
+    return view('ourteam', ['aboutus' => $aboutus, 'staffs' => $staffs, 'mytime' => $mytime, 'hero' => $hero]);
 
 
 });
@@ -294,6 +300,17 @@ Route::get('/projectongoing', function () {
     return view('projectongoing', ['aboutus' => $aboutus,'projectongoing' => $projectongoing,'projectcompleted' => $projectcompleted, 'staffs' => $staffs, 'mytime' => $mytime, 'notices'=> $notices]);
 
 });
+
+
+Route::get('/test', function () {
+    return view('test');
+
+
+});
+
+
+
+
 
 
 Route::post(/**

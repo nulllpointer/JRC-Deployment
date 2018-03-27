@@ -2,9 +2,9 @@
      data-ride="carousel">
     <div class="carousel-inner">
 
-        @for ($i = 0; $i < count($carousels); $i++)
+        @for ($i = 0; $i < count($carousel); $i++)
             <div class="item {{$i==0?'active':''}}">
-                <img  src="{{ asset($carousels[$i]->pic_url) }}" caption="{{$i}}" alt="{{$carousels[$i]->pic_alt_name}}"
+                <img  src="{{ asset($carousel[$i]->pic_url) }}" caption="{{$i}}" alt="{{$carousel[$i]->pic_alt_name}}"
                      class="img-responsive"
                      data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
             </div>
@@ -24,12 +24,12 @@
     </a>
     <div id="caption-container">
 
-        @for ($i = 0; $i < count($carousels); $i++)
+        @for ($i = 0; $i < count($carousel); $i++)
             <div class="carousel-caption caption-{{$i}}">
-                <h3>{{$carousels[$i]->caption_heading}}</h3>
-                <p>{{$carousels[$i]->caption_desc}}</p>
-                <span class="page-scroll"><a href="{{$carousels[$i]->btn_url}}"
-                                             class="btn-u btn-brd btn-brd-hover btn-u-light">{{$carousels[$i]->btn_text}}</a></span>
+                <h3>{{$carousel[$i]->caption_heading}}</h3>
+                <p>{{$carousel[$i]->caption_desc}}</p>
+                <span class="page-scroll"><a href="{{$carousel[$i]->btn_url}}"
+                                             class="btn-u btn-brd btn-brd-hover btn-u-light">{{$carousel[$i]->btn_text}}</a></span>
             </div>
         @endfor
 

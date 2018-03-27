@@ -60,15 +60,15 @@
 <!-- start nav and topbar area -->
 @include('partials.header')
 
-<section class="constructo-serivces-section section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
+<section class="constructo-serivces-section section-padding" style="background: #f4f5f9;
    ">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="section-title">
-                    <h2>OUR TEAM</h2>
-                    <p style="font-size: 22px;">We are an alliance of creative professionals and  work in combination to reach our clients' goals. Come join the team!</p>
-                    <div class="line">
+                    <h2>MEET OUR TEAM</h2>
+                    {{--       <p style="font-size: 22px;">We are an alliance of creative professionals and  work in combination to reach our clients' goals. Come join the team!</p>
+                    --}}       <div class="line">
                         <img src="img/line.png" alt="theconstructo.com">
                     </div>
                 </div>
@@ -76,29 +76,66 @@
         </div>
 
 
-        <div class="row padding-top">
-            @for ($i = 0; $i < sizeOf($staffs); $i++)
+        <div class="row padding-top" >
 
 
-            <div class="col-sm-4 text-center">
+            <div class="">
 
 
-                <div class="team-box">
-                    <div class="team-img">
-                        <img style="height: 300px; width: 270px" src="uploads/{{ $staffs[$i]->image }}">
+                <div class="text-center">
+
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img style="height: 235px; width: 270px" src="uploads/{{ $staffs[0]->image }}">
+                        </div>
+
+                        <div class="ourteam-content">
+                            <h3>  {{ $staffs[0]->name }}</h3>
+                            <h4>{{ $staffs[0]->department }}</h4>
+                            <p>{{ $staffs[0]->message }}</p>
+                            <a href="/uploads/{{ $staffs[0]->resume }}"><u>View Resume</u></a>
+                            <br>
+
+                        </div>
+
+
                     </div>
-                    <div class="ourteam-content">
-                        <h3>  {{ $staffs[$i]->name }}</h3>
-                        <h4>{{ $staffs[$i]->department }}</h4>
-                        <p>{{ $staffs[$i]->message }}</p>
-                    </div>
-
+                </div>
 
             </div>
+
+
         </div>
 
+
+
+        <div class="row padding-top">
+            @for ($i = 1; $i < sizeOf($staffs); $i++)
+
+
+                <div class="col-sm-4 text-center">
+
+
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img style="height: 207px; width: 230px" src="uploads/{{ $staffs[$i]->image }}">
+                        </div>
+                        <br>
+                        <div class="ourteam-content">
+                            <h3>  {{ $staffs[$i]->name }}</h3>
+                            <h4>{{ $staffs[$i]->department }}</h4>
+                            <p>{{ $staffs[$i]->message }}</p>
+                            <a href="/uploads/{{ $staffs[$i]->resume }}"><u>View Resume</u> </a>
+
+                        </div>
+                        <br>
+
+
+                    </div>
+                </div>
+
             @endfor
-    </div>
+        </div>
     </div>
     <br><br><br>
 

@@ -164,14 +164,13 @@
   </section>
 --}}  <!-- end of features section -->
 <!-- start services section -->
-<section class="constructo-serivces-section section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
-   ">
+<section class="constructo-serivces-section section-padding" style="background: #f4f5f9;" >
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="section-title">
                     <h2>WHAT WE DO</h2>
-                    <p style="font-size: 22px;">JRC provides integrated and multi-disciplinary professional services
+                    <p style="font-size: 17px;">JR Consultant provides integrated and multi-disciplinary professional services
                         from concept formulation to completion of the Projects/Studies in order to tailor the
                         requirements of clients.</p>
                     <div class="line">
@@ -318,7 +317,7 @@
 {{--  <section class="constructo-count-down section-padding">
       <div class="container">
           <div class="row">
-              <div class="col-sm-3 text-center text-uppercase">
+              <div class="col-sm-4 text-center text-uppercase">
                   <div class="single-countdown">
                       <div class="count-icon">
                           <img src="img/count-1.png" alt="theconstructo.com">
@@ -327,7 +326,7 @@
                       <h4>project completed</h4>
                   </div>
               </div>
-              <div class="col-sm-3 text-center text-uppercase">
+              <div class="col-sm-4 text-center text-uppercase">
                   <div class="single-countdown">
                       <div class="count-icon">
                           <img src="img/count-2.png" alt="theconstructo.com">
@@ -336,7 +335,7 @@
                       <h4>workers & stuffs</h4>
                   </div>
               </div>
-              <div class="col-sm-3 text-center text-uppercase">
+              <div class="col-sm-4 text-center text-uppercase">
                   <div class="single-countdown">
                       <div class="count-icon">
                           <img src="img/count-3.png" alt="theconstructo.com">
@@ -345,7 +344,7 @@
                       <h4>DIGGING equipments</h4>
                   </div>
               </div>
-              <div class="col-sm-3 text-center text-uppercase">
+              <div class="col-sm-4 text-center text-uppercase">
                   <div class="single-countdown">
                       <div class="count-icon">
                           <img src="img/count-4.png" alt="theconstructo.com">

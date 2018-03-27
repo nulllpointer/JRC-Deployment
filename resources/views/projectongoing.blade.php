@@ -82,19 +82,22 @@
   </section>
 --}}  <!-- end of get quate area -->
 <!-- start news section -->
-<section class="constructo-news-post-area section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
-   ">
+<section class="constructo-news-post-area section-padding" >
     <div class="container">
+      {{--  <h2 style="color: #1e87b4;">We are involved in following project currently</h2>
+    --}}
         <div class="row">
+
             <div class="col-md-8 col-sm-7">
-                <div class="single-news-post">
+                @for($i=0;$i<sizeof($projectongoing);$i++)
+
+                <div class="single-news-postnew">
                     {{-- <div class="news-post-img">
                          <img src="img/survey.jpg" alt="theconstructo.com">
                      </div>
                     --}}
-                    <h2 style="color: #fba919;">We are working on these projects currently</h2>
 
-                    @for($i=0;$i<sizeof($projectongoing);$i++)
+
                         <div id="{{$i}}">
                             <div class="post-title">
                                 <h2>{{ $projectongoing[$i]->ongoingprojecttitle }}</h2>
@@ -102,31 +105,34 @@
                             <div class="row single-news-paddintnew">
 
                                 <div class="col-md-12">
-                                    <div class="about-list">
+                                    <div class="about-listnew">
                                         <ul>
-                                            <li><b>Scope: </b>{{ $projectongoing[$i]->ongoingprojectdescription }}  </li>
+                                            <li><b>Scope: </b>{{ $projectongoing[$i]->ongoingprojectdescription }}
+                                            </li>
 
                                             <li><b>Location: </b>{{ $projectongoing[$i]->ongoingprojectlocation }}
                                             </li>
-                                         {{--   <li><b>Clients:</b>> {{ $projectongoing[$i]->ongoingprojectclient }}
-                                            </li>
---}}
+                                               <li><b>Clients Name:</b> {{ $projectongoing[$i]->ongoingprojectclient }}
+                                               </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                    @endfor
+
 
 
                 </div>
+
+                @endfor
             </div>
+
             <div class="col-sm-5 col-md-4">
                 <div class="sidebar-area">
                     <div class="single-sidebar">
                         <div class="widget-title text-center">
-                            <h2>ONGOING PROJECTS</h2>
+                            <h2>LIST OF ONGOING PROJECTS</h2>
                             <img src="img/line.png" alt="theconstructo.com">
                         </div>
                         <div class="features-side-slider">
@@ -134,21 +140,26 @@
 
                                 @for($i=0;$i<sizeof($projectongoing);$i++)
 
-                                <a href="#{{$i}}">
+                                    <a href="#{{$i}}">
 
-                                    <div class="side-titlenew">
+                                        <div class="side-titlenew">
 
-                                        <p> {{ $projectongoing[$i]->ongoingprojecttitle }}
-                                        </p>
-                                    </div>
-                                    <br>
-                                </a>
+                                            <p id="mylink"> {{ $projectongoing[$i]->ongoingprojecttitle }}
+                                            </p>
+                                        </div>
+                                        <br>
+                                    </a>
+
+
+
                                 @endfor
 
                                 <br>
 
 
                             </div>
+
+
                             {{--
                                                         <div class="single-side-featuresnew">
                                                             <a href="#6">
@@ -219,6 +230,8 @@
       </div>
   </section>
 --}}
+
+
 @include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->

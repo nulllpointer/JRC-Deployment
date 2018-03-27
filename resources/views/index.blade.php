@@ -18,6 +18,9 @@
                             JR Consultant possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.
                          "/>
 
+    <meta name="keywords" content="JRconsultant,JRconsultantNepal,JRconsultantNepal, JRCNEPAL,JRnepal,JRConsultant,CivilWorks,JRC Nepal, Engineering,Survey,Design,Construction,Bridge,Road COnstruction, Civil Works,jrc,jrc nepal,jr consultant">
+
+
 
     <meta name="google" content="nositelinkssearchbox"/>
 
@@ -64,63 +67,87 @@
 
 
 
-
 <!-- end nav and topbar area -->
 <section class="constructo-home-area">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 positionstat">
-                <div class="home-slider-active">
-                    {{--             <div class="single-slider text-center">
-                                     <div class="welcome-text">
-                                         <h1>J.R</h1>
-                                         <h1 class="titlecolor">CONSULTANCY</h1>
-                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The </p>
-                                         <p>industry's standard dummy text ever since the 1500s, </p>
-                                         <div class="welcome-btn">
-                                             <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
-                                             <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
-                                         </div>
-                                     </div>
-                                 </div>--}}
-                    <div class="single-slider sliderthree text-center">
-                        <div class="welcome-text">
-                            <h1>JR</h1>
-                            <h1 class="titlecolor"> CONSULTANT</h1>
-                            <p>Welcome to the home of one of the renowned engineering consulting firm of Nepal.
-                                <br>
-                                JR Consultant primarily provides comprehensive solution in Engineering,
-                                Environmental and Social studies.  
-
-                                JR Consultant possesses over 28 years of experience working with variety of infrastructure
-                                development projects and we strongly believe in high quality services and customer
-                                satisfaction.
-                                <br>
-                            </p>
-                            {{--   <div class="welcome-btn">
-                                   <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
-                                   <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
-                               </div>--}}
+            <div class="col-md-12">
+                <div>
+                    <div class="welcome-text">
+                        <div class="page-header"><p class="title">JR Consultant </p>
                         </div>
-                    </div>
-                    {{-- <div class="single-slider text-center">
-                         <div class="welcome-text">
-                             <h1>J.R</h1>
-                             <h1 class="titlecolor">CONSULTANCY</h1>
-                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The </p>
-                             <p>industry's standard dummy text ever since the 1500s, </p>
-                             <div class="welcome-btn">
-                                 <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
-                                 <a href="#" class="btn-start rippler rippler-inverse mr0 active"><span>GET STARTED NOW</span></a>
-                             </div>
-                         </div>
-                     </div>--}}
-                </div>
+
+                        <div class="well"><p>Welcome to the home of the renowned engineering consulting firm in Nepal.
+                            JR Consultant primarily provides comprehensive solution in Engineering,
+                            Environmental and Social studies. We possess over 28 years of experience working with
+                            variety of infrastructure
+                            development projects and we strongly believe in high quality services and customer
+                            satisfaction. We have provided consultancy services to most of the government departments and
+                            agencies of Nepal Government. We have the... <a href="/about">read more</a></p>
+                    </div><!-- End Well -->
+                </div><!-- End Container -->
             </div>
-        </div>
+            </div>
+
+            </div>
+            {{--      <div class="col-xs-12 positionstat">
+                      <div class="home-slider-active">
+                          --}}{{--             <div class="single-slider text-center">
+                                           <div class="welcome-text">
+                                               <h1>J.R</h1>
+                                               <h1 class="titlecolor">CONSULTANCY</h1>
+                                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The </p>
+                                               <p>industry's standard dummy text ever since the 1500s, </p>
+                                               <div class="welcome-btn">
+                                                   <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
+                                                   <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
+                                               </div>
+                                           </div>
+                                       </div>--}}{{--
+                          <div class="single-slider sliderthree text-center">
+                              <div class="welcome-text">
+                                  <h1>JR</h1>
+                                  <h1 class="titlecolor"> CONSULTANT</h1>
+                                  <p>Welcome to the home of one of the renowned engineering consulting firm of Nepal.
+                                      <br>
+                                      JR Consultant primarily provides comprehensive solution in Engineering,
+                                      Environmental and Social studies.  
+
+                                      JR Consultant possesses over 28 years of experience working with variety of infrastructure
+                                      development projects and we strongly believe in high quality services and customer
+                                      satisfaction.
+                                      <br>
+                                  </p>
+                                  --}}{{--   <div class="welcome-btn">
+                                         <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
+                                         <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
+                                     </div>--}}{{--
+                              </div>
+                          </div>
+                          --}}{{-- <div class="single-slider text-center">
+                               <div class="welcome-text">
+                                   <h1>J.R</h1>
+                                   <h1 class="titlecolor">CONSULTANCY</h1>
+                                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. The </p>
+                                   <p>industry's standard dummy text ever since the 1500s, </p>
+                                   <div class="welcome-btn">
+                                       <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
+                                       <a href="#" class="btn-start rippler rippler-inverse mr0 active"><span>GET STARTED NOW</span></a>
+                                   </div>
+                               </div>
+                           </div>--}}{{--
+                      </div>
+                  </div>
+            --}}
+
+
+
+
+            </div>
     </div>
 </section>
 <!-- end of home area -->
+{{--
 <section class="constructo-get-quote-area" style="  background: url(uploads/sun.jpg) no-repeat center center / cover;
   position:relative;">
     <div class="container">
@@ -132,6 +159,12 @@
                     </p>
                 </div>
             </div>
+
+         <div>
+
+
+         </div>
+
             <div class="col-sm-4 text-right">
                 <div class="get-btn">
                     <a href="/about">KNOW MORE</a>
@@ -139,7 +172,11 @@
             </div>
         </div>
     </div>
+
+
+
 </section>
+--}}
 <!-- end of get quate area -->
 <!-- start our features area -->
 {{--
@@ -725,6 +762,11 @@
     </div>
 </section>
 --}}
+
+
+
+
+
 @include('partials.footer')
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
 <!-- jquery min js -->

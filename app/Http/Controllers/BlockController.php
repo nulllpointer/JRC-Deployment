@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Carousel as Carousel;
+use App\Models\carousel as Carousel;
 use App\Models\Block as Block;
 use App\Models\CarouselDto;
 use Illuminate\Http\Request;

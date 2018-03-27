@@ -49,8 +49,7 @@
 <!-- end of home area -->
 <!-- end of get quate area -->
 <!-- start news section -->
-<section class="constructo-news-post-area section-padding" style=" background: url(uploads/bg7.jpg) no-repeat center center / cover;
-   " >
+<section class="constructo-news-post-area section-padding" style="background: #f4f5f9;" >
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-7">
@@ -177,7 +176,6 @@
             </div>
         </div>
     </div>
-    <br><br><br>
 </section>
 <!-- end of news section -->
 <!-- start footer top section -->
