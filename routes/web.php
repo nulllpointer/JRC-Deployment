@@ -52,13 +52,9 @@ Route::get('/', function () {
     $carousel = \App\carousel::get();
 
 
-
-    if (Agent::isMobile()) {
-        return view('indexmobile', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs, 'mytime' => $mytime]);
-    } else {
         return view('index
         ', ['aboutus' => $aboutus, 'notices' => $notices, 'staffs' => $staffs, 'mytime' => $mytime, 'mytime' => $mytime,'carousel' => $carousel]);
-    }
+
 
 
 });

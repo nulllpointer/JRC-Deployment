@@ -183,35 +183,35 @@
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img class="responsive" src="img/servic-4.jpg" alt="theconstructo.com">
+                    <!-- <img class="responsive" src="img/servic-4.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Project Planning and Design</h3>
                         <p>Design Review. Outline and Detailed Engineering and Structural Design...
                         </p>
-                        <a href="/projectdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/projectdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/servic-5.jpg" alt="theconstructo.com">
+                    <!--  <img src="img/servic-5.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Pre-Contract Services</h3>
                         <p>Preparation of Prequalification, Tender and Contract Documents.
                             Pre-qualification of Bidders...
                         </p>
-                        <a href="/precontractdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/precontractdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/servic-6.jpg" alt="theconstructo.com">
+                    <!-- <img src="img/servic-6.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Project Implementation</h3>
                         <p>Construction Supervision and Contract Administration...</p>
-                        <a href="/implementdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/implementdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
@@ -229,14 +229,14 @@
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/survey.jpg" alt="theconstructo.com">
+                    <!--   <img src="img/survey.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Survey and Assessment   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
                         <p>Land Use, Topographic and Resource Survey/Appraisal. Geology, Hydrology and ..
 
 
                         </p>
-                        <a href="/surveydetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/surveydetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
@@ -244,24 +244,24 @@
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/operation.jpg" alt="theconstructo.com">
+                    <!--    <img src="img/operation.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Operation, Maintenance and Management</h3>
                         <p>O & M Services (Project Operation ), Institution Strengthening...</p>
-                        <a href="/operationdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/operationdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
 
 
 
-                      <div class="col-sm-4 text-left">
+            <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/servic-3.jpg" alt="theconstructo.com">
+                    <!--     <img src="img/servic-3.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Investigation, Testing and Analysis</h3>
                         <p>Geo-technical Investigation (Sub-surface Exploration by Drilling) ...</p>
-                        <a href="/investigationdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/investigationdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
@@ -269,14 +269,14 @@
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/research.jpg" alt="theconstructo.com">
+                    <!--    <img src="img/research.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Research and Studies</h3>
                         <p>
                             Pre-Investment Studies.
                             Pre-feasibility, Feasibility Studies.
                             Social, Economic and Financial Studies.
-                            <a href="/researchdetails" class="services-btn active">SERVICE DETAILS</a>
+                            <a href="/researchdetails" class="services-btn active">KNOW MORE</a>
                     </div>
                 </div>
             </div>
@@ -287,21 +287,21 @@
 
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/training.jpg" alt="theconstructo.com">
+                    <!--      <img src="img/training.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Training and Workshops</h3>
                         <p>Development of Training Programs and Modules, Management Support for Workshops...</p>
-                        <a href="/trainingdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/trainingdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 text-left">
                 <div class="constructo-single-services">
-                    <img src="img/partnership.jpg" alt="theconstructo.com">
+                    <!--  <img src="img/partnership.jpg" alt="theconstructo.com">-->
                     <div class="services-content">
                         <h3>Public Private Partnership</h3>
                         <p>Initiative for promotion of PPPs, Project preparation and contract ...</p>
-                        <a href="/partnershipdetails" class="services-btn">SERVICE DETAILS</a>
+                        <a href="/partnershipdetails" class="services-btn">KNOW MORE</a>
                     </div>
                 </div>
             </div>

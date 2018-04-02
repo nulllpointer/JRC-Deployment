@@ -226,14 +226,13 @@ ul.topaddres li span {
 }
 
 .well {
-    /* padding-bottom: 10px; */
-    /* padding-top: 20px; */
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     opacity: 0.85;
-    /* min-height: 20px; */
-    padding: 34px;
-    margin-bottom: 20px;
+    min-height: 20px;
+
     background-color: #f5f5f5;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
@@ -582,8 +581,8 @@ html, body {
 }
 
 .about-list ul li {
-    color: #6a6a6a;
-    font-size: 16px;
+    color: black;
+    font-size: 14px;
     line-height: normal;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -593,7 +592,7 @@ html, body {
 
 
 .about-listnew ul li {
-    color: #6a6a6a;
+    color: black;
     font-size: 14px;
     line-height: normal;
     /* margin-bottom: 10px; */
@@ -608,7 +607,7 @@ html, body {
     border-radius: 50%;
     color: #fff;
     content: "";
-    font-family: fontawesome;
+    font-family: sans-serif;
     height: 20px;
     left: 6px;
     position: absolute;
@@ -1212,7 +1211,7 @@ html, body {
     padding: 15px 0;
     background: #1e87b4;
     color: #ffffff;
-    position: relative;
+//  position: relative;
 }
 
 .scroll-top {
@@ -1644,7 +1643,7 @@ textarea.single-input {
 .ourteam-content h3 {
     font-size:24px;
     font-weight:700;
-    color: #1e87b4;
+    color: #1a1e28;
     padding: 5px;
 }
 
@@ -1669,21 +1668,22 @@ textarea.single-input {
 
 .services-btn {
     background: #1e87b4 none repeat scroll 0 0;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     box-shadow: 2px 2px 2px #c7c8cb;
     color: #fff;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 12px;
     font-weight: 600;
-    height: 50px;
+    height: 45px;
     line-height: 50px;
     margin-top: 20px;
     text-align: center;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    width: 150px;
+    width: 106px;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .services-btn:hover,
 .services-btn:focus {
@@ -1743,16 +1743,54 @@ textarea.single-input {
 }
 
 
+.single-news-postnewtitle {
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 3px 1px #d0d0d4;
+    color: black;
+    font-size: 14px;
+    /* padding-top: 0px; */
+    /* padding: 5px; */
+    margin-top: 10%;
+    margin-top: 10%;
+
+    background: #fff;
+}
+
+.single-news-postnewtitle h1 {
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #1e87b4;
+    font-size: 24px;
+
+    /* padding-top: 0px; */
+    /* padding: 5px; */
+    margin-bottom: 11px;
+}
+
+.single-news-postnewtitle h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
 
 .constructo-news-post-area {
     background: #f4f5f9;
 }
 
 .post-title > h2 {
-    color: #6a6a6a;
+    color: black;
     font-size: 25px;
     font-weight: 400;
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     padding-bottom: 8px;
     padding-left:  11px;
 }
@@ -1883,7 +1921,7 @@ textarea.single-input {
 }
 
 .single-side-featuresnew a:hover{
-    background-color:#fba919;
+    background-color:#1e87b1;
     text-decoration: underline;
 
     border-bottom: 1px solid #efefef;
@@ -1907,7 +1945,7 @@ textarea.single-input {
 }
 
 .side-titlenew {
-    /* color: black; */
+     color: black;
     font-size: 14px;
     font-weight: 400;
     padding-left: 33px;
@@ -2017,7 +2055,7 @@ blockquote {
 .singlepos-slidernext:hover,
 .singlepos-sliderprev:hover {
     background: #fba919;
-    color: #fff
+    color: black;
 }
 
 .fnt-italic {
@@ -2038,6 +2076,36 @@ blockquote {
     top: 0;
     background: transparent;
 }
+
+
+
+.single-news-postnewtitle {
+    opacity: 0.85;
+    box-shadow: 1px 1px 3px 1px #d0d0d4;
+    color: black;
+    font-size: 14px;
+    /* padding-top: 0px; */
+    /* padding: 5px; */
+    margin-bottom: 11px;
+    background: #fff;
+    padding: 20px;
+}
+
+.single-news-postnewtitle h1 {
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #1e87b4;
+    font-size: 24px;
+
+    /* padding-top: 0px; */
+    /* padding: 5px; */
+    margin-bottom: 11px;
+}
+
+
+
 
 .parallax-windowf {
     left: 0;

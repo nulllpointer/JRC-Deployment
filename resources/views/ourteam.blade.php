@@ -90,11 +90,11 @@
                         </div>
 
                         <div class="ourteam-content">
-                            <h3>  {{ $staffs[0]->name }}</h3>
+                            <h3>Mr.  {{ $staffs[0]->name }}</h3>
                             <h4>{{ $staffs[0]->department }}</h4>
                             <p>{{ $staffs[0]->message }}</p>
                             <a href="/uploads/{{ $staffs[0]->resume }}"><u>View Resume</u></a>
-                            <br>
+                            <br><br>
 
                         </div>
 
@@ -122,7 +122,7 @@
                         </div>
                         <br>
                         <div class="ourteam-content">
-                            <h3>  {{ $staffs[$i]->name }}</h3>
+                            <h3>Mr.  {{ $staffs[$i]->name }}</h3>
                             <h4>{{ $staffs[$i]->department }}</h4>
                             <p>{{ $staffs[$i]->message }}</p>
                             <a href="/uploads/{{ $staffs[$i]->resume }}"><u>View Resume</u> </a>
@@ -137,7 +137,7 @@
             @endfor
         </div>
     </div>
-    <br><br><br>
+    <br>
 
 
 </section>
